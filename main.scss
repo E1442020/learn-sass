@@ -1,0 +1,153 @@
+@use './sass/layout/globalLayout';
+@use './sass/pages/globalPages';
+// $alt_color:red;
+@use './sass/variable/varaible' as *;
+
+// .container{
+//     background-color: $alt_color;
+// }
+.footer{
+    $alt_color:blue;
+    background-color: $alt_color;
+}
+
+.mainn{
+    width:$main;
+}
+
+.parent{
+    background-color: $sec;
+    .clild1{
+        color: gainsboro;
+        .child2{
+            font-size: medium;
+        }
+    }
+    .child3{
+        width: 50px;
+    }
+    &:hover{
+        background-color: $main;
+    }
+}
+
+%ss{
+    background-color: aqua;
+    border-top-color:  red;
+    width: 20px;
+    color: black
+
+}
+.ff{
+    @extend %ss;
+    color: aqua;
+}
+$theme:'darkk';
+
+.section{
+    @if $theme=='dark' {
+        background-color: black;
+        color: #000;
+    } @else{
+        background-color: antiquewhite;
+        color: black;
+    }
+}
+
+$position:'left';
+
+.po#{$position}{
+    margin-#{$position}: 5px; /*jjjj*/
+};
+
+@mixin hh($vv){
+    background-color: $vv;
+
+}
+.ll{
+    @include hh(red)
+}
+
+@for $i from 1 through 100{
+    .class-#{$i}{
+        font-size: #{$i} +100;
+    }
+}
+;
+$dimensions:0;
+@for $i from 1 through 10{
+    .circle-#{$dimensions+100}{
+        width: #{$dimensions+100};
+    }
+    $dimensions:$dimensions+100;
+}
+
+//each map
+$themes:red,blue;
+@each $theme in $themes{
+    .#{$theme}{
+        .uu{
+            background-color: $theme;
+
+        }
+    }
+}
+
+$social:(
+    'facebook':blue,
+    'twitter':red,
+);
+
+@each $namee,$colorr in $social{
+    .#{$namee}{
+        background-color: $colorr;
+    }
+}
+
+$start:1;
+@while $start<=10 {
+    .width-#{$start*100}{
+        width: $start*100px;
+        height: ($start*100px)/2;
+    }
+    $start:$start+1
+}
+
+$col:12;
+@for $i from 1 through $col {
+    .col#{$i}{
+        width: percentage($i/ $col);
+    }
+}
+
+//function
+
+@function half($size){
+  @return $size/2
+};
+$wid:800px;
+.xx{
+width: $wid;
+height: half($wid);
+}
+
+@mixin breakpoints($point){
+    @if $point==mobile{
+        @media (min-width:767px) {
+            @content;
+        }
+    }@else if $point==small{
+        @media (min-width:768px) and (max-width:991px){
+            @content;
+        }
+    }@else if $point==medium{
+        @media (min-width:992px) and (max-width:991px){
+            @content
+        }
+    }}
+            
+        .media{
+            @include breakpoints(small){
+                font-size: 40px;
+            }
+        }

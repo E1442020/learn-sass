@@ -1,0 +1,626 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:1000px) {
+  .mobile {
+    width: 900px;
+  }
+}
+a {
+  text-decoration: none;
+  background-color: aquamarine;
+}
+
+.footer {
+  background-color: blue;
+}
+
+.mainn {
+  width: 500px;
+}
+
+.parent {
+  background-color: 900px;
+}
+.parent .clild1 {
+  color: gainsboro;
+}
+.parent .clild1 .child2 {
+  font-size: medium;
+}
+.parent .child3 {
+  width: 50px;
+}
+.parent:hover {
+  background-color: 500px;
+}
+
+.ff {
+  background-color: aqua;
+  border-top-color: red;
+  width: 20px;
+  color: black;
+}
+
+.ff {
+  color: aqua;
+}
+
+.section {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.poleft {
+  margin-left: 5px; /*jjjj*/
+}
+
+.ll {
+  background-color: red;
+}
+
+.class-1 {
+  font-size: 1100;
+}
+
+.class-2 {
+  font-size: 2100;
+}
+
+.class-3 {
+  font-size: 3100;
+}
+
+.class-4 {
+  font-size: 4100;
+}
+
+.class-5 {
+  font-size: 5100;
+}
+
+.class-6 {
+  font-size: 6100;
+}
+
+.class-7 {
+  font-size: 7100;
+}
+
+.class-8 {
+  font-size: 8100;
+}
+
+.class-9 {
+  font-size: 9100;
+}
+
+.class-10 {
+  font-size: 10100;
+}
+
+.class-11 {
+  font-size: 11100;
+}
+
+.class-12 {
+  font-size: 12100;
+}
+
+.class-13 {
+  font-size: 13100;
+}
+
+.class-14 {
+  font-size: 14100;
+}
+
+.class-15 {
+  font-size: 15100;
+}
+
+.class-16 {
+  font-size: 16100;
+}
+
+.class-17 {
+  font-size: 17100;
+}
+
+.class-18 {
+  font-size: 18100;
+}
+
+.class-19 {
+  font-size: 19100;
+}
+
+.class-20 {
+  font-size: 20100;
+}
+
+.class-21 {
+  font-size: 21100;
+}
+
+.class-22 {
+  font-size: 22100;
+}
+
+.class-23 {
+  font-size: 23100;
+}
+
+.class-24 {
+  font-size: 24100;
+}
+
+.class-25 {
+  font-size: 25100;
+}
+
+.class-26 {
+  font-size: 26100;
+}
+
+.class-27 {
+  font-size: 27100;
+}
+
+.class-28 {
+  font-size: 28100;
+}
+
+.class-29 {
+  font-size: 29100;
+}
+
+.class-30 {
+  font-size: 30100;
+}
+
+.class-31 {
+  font-size: 31100;
+}
+
+.class-32 {
+  font-size: 32100;
+}
+
+.class-33 {
+  font-size: 33100;
+}
+
+.class-34 {
+  font-size: 34100;
+}
+
+.class-35 {
+  font-size: 35100;
+}
+
+.class-36 {
+  font-size: 36100;
+}
+
+.class-37 {
+  font-size: 37100;
+}
+
+.class-38 {
+  font-size: 38100;
+}
+
+.class-39 {
+  font-size: 39100;
+}
+
+.class-40 {
+  font-size: 40100;
+}
+
+.class-41 {
+  font-size: 41100;
+}
+
+.class-42 {
+  font-size: 42100;
+}
+
+.class-43 {
+  font-size: 43100;
+}
+
+.class-44 {
+  font-size: 44100;
+}
+
+.class-45 {
+  font-size: 45100;
+}
+
+.class-46 {
+  font-size: 46100;
+}
+
+.class-47 {
+  font-size: 47100;
+}
+
+.class-48 {
+  font-size: 48100;
+}
+
+.class-49 {
+  font-size: 49100;
+}
+
+.class-50 {
+  font-size: 50100;
+}
+
+.class-51 {
+  font-size: 51100;
+}
+
+.class-52 {
+  font-size: 52100;
+}
+
+.class-53 {
+  font-size: 53100;
+}
+
+.class-54 {
+  font-size: 54100;
+}
+
+.class-55 {
+  font-size: 55100;
+}
+
+.class-56 {
+  font-size: 56100;
+}
+
+.class-57 {
+  font-size: 57100;
+}
+
+.class-58 {
+  font-size: 58100;
+}
+
+.class-59 {
+  font-size: 59100;
+}
+
+.class-60 {
+  font-size: 60100;
+}
+
+.class-61 {
+  font-size: 61100;
+}
+
+.class-62 {
+  font-size: 62100;
+}
+
+.class-63 {
+  font-size: 63100;
+}
+
+.class-64 {
+  font-size: 64100;
+}
+
+.class-65 {
+  font-size: 65100;
+}
+
+.class-66 {
+  font-size: 66100;
+}
+
+.class-67 {
+  font-size: 67100;
+}
+
+.class-68 {
+  font-size: 68100;
+}
+
+.class-69 {
+  font-size: 69100;
+}
+
+.class-70 {
+  font-size: 70100;
+}
+
+.class-71 {
+  font-size: 71100;
+}
+
+.class-72 {
+  font-size: 72100;
+}
+
+.class-73 {
+  font-size: 73100;
+}
+
+.class-74 {
+  font-size: 74100;
+}
+
+.class-75 {
+  font-size: 75100;
+}
+
+.class-76 {
+  font-size: 76100;
+}
+
+.class-77 {
+  font-size: 77100;
+}
+
+.class-78 {
+  font-size: 78100;
+}
+
+.class-79 {
+  font-size: 79100;
+}
+
+.class-80 {
+  font-size: 80100;
+}
+
+.class-81 {
+  font-size: 81100;
+}
+
+.class-82 {
+  font-size: 82100;
+}
+
+.class-83 {
+  font-size: 83100;
+}
+
+.class-84 {
+  font-size: 84100;
+}
+
+.class-85 {
+  font-size: 85100;
+}
+
+.class-86 {
+  font-size: 86100;
+}
+
+.class-87 {
+  font-size: 87100;
+}
+
+.class-88 {
+  font-size: 88100;
+}
+
+.class-89 {
+  font-size: 89100;
+}
+
+.class-90 {
+  font-size: 90100;
+}
+
+.class-91 {
+  font-size: 91100;
+}
+
+.class-92 {
+  font-size: 92100;
+}
+
+.class-93 {
+  font-size: 93100;
+}
+
+.class-94 {
+  font-size: 94100;
+}
+
+.class-95 {
+  font-size: 95100;
+}
+
+.class-96 {
+  font-size: 96100;
+}
+
+.class-97 {
+  font-size: 97100;
+}
+
+.class-98 {
+  font-size: 98100;
+}
+
+.class-99 {
+  font-size: 99100;
+}
+
+.class-100 {
+  font-size: 100100;
+}
+
+.circle-100 {
+  width: 100;
+}
+
+.circle-200 {
+  width: 200;
+}
+
+.circle-300 {
+  width: 300;
+}
+
+.circle-400 {
+  width: 400;
+}
+
+.circle-500 {
+  width: 500;
+}
+
+.circle-600 {
+  width: 600;
+}
+
+.circle-700 {
+  width: 700;
+}
+
+.circle-800 {
+  width: 800;
+}
+
+.circle-900 {
+  width: 900;
+}
+
+.circle-1000 {
+  width: 1000;
+}
+
+.red .uu {
+  background-color: red;
+}
+
+.blue .uu {
+  background-color: blue;
+}
+
+.facebook {
+  background-color: blue;
+}
+
+.twitter {
+  background-color: red;
+}
+
+.width-100 {
+  width: 100px;
+  height: 50px;
+}
+
+.width-200 {
+  width: 200px;
+  height: 100px;
+}
+
+.width-300 {
+  width: 300px;
+  height: 150px;
+}
+
+.width-400 {
+  width: 400px;
+  height: 200px;
+}
+
+.width-500 {
+  width: 500px;
+  height: 250px;
+}
+
+.width-600 {
+  width: 600px;
+  height: 300px;
+}
+
+.width-700 {
+  width: 700px;
+  height: 350px;
+}
+
+.width-800 {
+  width: 800px;
+  height: 400px;
+}
+
+.width-900 {
+  width: 900px;
+  height: 450px;
+}
+
+.width-1000 {
+  width: 1000px;
+  height: 500px;
+}
+
+.col1 {
+  width: 8.3333333333%;
+}
+
+.col2 {
+  width: 16.6666666667%;
+}
+
+.col3 {
+  width: 25%;
+}
+
+.col4 {
+  width: 33.3333333333%;
+}
+
+.col5 {
+  width: 41.6666666667%;
+}
+
+.col6 {
+  width: 50%;
+}
+
+.col7 {
+  width: 58.3333333333%;
+}
+
+.col8 {
+  width: 66.6666666667%;
+}
+
+.col9 {
+  width: 75%;
+}
+
+.col10 {
+  width: 83.3333333333%;
+}
+
+.col11 {
+  width: 91.6666666667%;
+}
+
+.col12 {
+  width: 100%;
+}
+
+.xx {
+  width: 800px;
+  height: 400px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .media {
+    font-size: 40px;
+  }
+}/*# sourceMappingURL=main.css.map */

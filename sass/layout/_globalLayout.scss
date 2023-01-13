@@ -1,0 +1,12 @@
+@use '../variable/varaible' as *;
+
+*{
+    box-sizing: border-box;
+}
+$mobWidth:'max-width:1000px';
+
+@media screen and ($mobWidth) {
+    .mobile{
+        width: $sec;
+    }
+}
